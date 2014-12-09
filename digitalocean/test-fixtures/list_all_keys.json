@@ -1,0 +1,15 @@
+{
+  "ssh_keys": [
+    {
+      "id": 123,
+      "fingerprint": "fingerprint",
+      "public_key": "public_key",
+      "name": "My SSH Public Key"
+    }
+  ],
+  "links": {
+  },
+  "meta": {
+    "total": 1
+  }
+}

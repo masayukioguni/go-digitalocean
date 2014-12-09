@@ -1,0 +1,8 @@
+{
+  "account": {
+    "droplet_limit": 25,
+    "email": "test@test.com",
+    "uuid": "uuid",
+    "email_verified": true
+  }
+} 
