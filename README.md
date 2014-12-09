@@ -1,4 +1,7 @@
 # go-digitalocean
+
+go-digitalocean is a Go client library for accessing the [DigitalOcean API](https://developers.digitalocean.com/).
+
 go-digitalocean was heavily inspired by the go-github library.
 
 **travis-ci:** [![Build Status](https://travis-ci.org/masayukioguni/go-digitalocean.svg?branch=master)](https://travis-ci.org/masayukioguni/go-digitalocean)
