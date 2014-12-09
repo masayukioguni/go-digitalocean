@@ -159,13 +159,3 @@ func (s *DropletsService) Get(id int) (*Droplet, *http.Response, error) {
 	return &dr.Droplet, resp, err
 
 }
-
-func (d *Droplet) GetV4IPAddress() []string {
-	var ipv4s []string
-
-	for _, v4 := range d.Networks.V4s {
-		ipv4s = append(ipv4s, v4.IPAddress)
-	}
-
-	return ipv4s
-}
